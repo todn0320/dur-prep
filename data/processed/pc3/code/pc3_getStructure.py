@@ -1,6 +1,6 @@
 
 import json
-json_path = 'C:/Users/soldesk/Desktop/dur-prep/data/raw/DrugPrmsnInfo/의약품 제품 허가 상세정보.json' # ← 실제 경로로 수정 !
+json_path = 'C:/Users/soldesk/Desktop/dur-prep/data/raw/eDrugPrmsnInfo/낱알식별정보.json' # ← 실제 경로로 수정 !
 with open(json_path, encoding='utf-8') as f:
  raw = json.load(f)
 # 최상위 구조 확인
