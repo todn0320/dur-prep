@@ -1,0 +1,13 @@
+✅ PC3_edrugPrmsnInfo_완료 리포트
+
+**e약은요의약품개요정보**
+
+행수: 4732
+컬럼수: 14
+첫 항목 키 : ['entpName', 'itemName', 'itemSeq', 'efcyQesitm', 'useMethodQesitm', 'atpnWarnQesitm', 'atpnQesitm', 'intrcQesitm', 'seQesitm', 'depositMethodQesitm', 'openDe', 'updateDe', 'itemImage', 'bizrno']
+
+**낱알식별정보**
+행수: 25343
+컬럼수: 33
+
+첫 항목 키 : ['ITEM_SEQ', 'ITEM_NAME', 'ENTP_SEQ', 'ENTP_NAME', 'CHART', 'ITEM_IMAGE', 'PRINT_FRONT', 'PRINT_BACK', 'DRUG_SHAPE', 'COLOR_CLASS1', 'COLOR_CLASS2', 'LINE_FRONT', 'LINE_BACK', 'LENG_LONG', 'LENG_SHORT', 'THICK', 'IMG_REGIST_TS', 'CLASS_NO', 'CLASS_NAME', 'ETC_OTC_NAME', 'ITEM_PERMIT_DATE', 'FORM_CODE_NAME', 'MARK_CODE_FRONT_ANAL', 'MARK_CODE_BACK_ANAL', 'MARK_CODE_FRONT_IMG', 'MARK_CODE_BACK_IMG', 'ITEM_ENG_NAME', 'CHANGE_DATE', 'MARK_CODE_FRONT', 'MARK_CODE_BACK', 'EDI_CODE', 'BIZRNO', 'STD_CD']

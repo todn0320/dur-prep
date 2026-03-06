@@ -1,7 +1,7 @@
 import pandas as pd, json
 import os
 
-with open("C:/Users/soldesk/Desktop/DUR-PREP/data/raw/dur_ingredient/dur_ingredient_노인주의.json", encoding='utf-8') as f:
+with open("C:/Users/soldesk/Desktop/dur-prep/낱알식별정보.json", encoding='utf-8') as f:
     raw = json.load(f)
 # ── ──구조사전진단
 if isinstance(raw, dict) and 'response' not in raw:
@@ -46,7 +46,14 @@ if related_candidates:
 # 중복 확인
 print('\n 중복 행수:', df.duplicated().sum())
 
+
+df = df.fillna("").astype(str)
+
+# 저장할 폴더 만들기 (경로 주의!)
 os.makedirs('data/processed/pc3', exist_ok=True)
-df.to_parquet('data/processed/pc3/dur_ingredient_노인주의.parquet', index=False)
-print(' ✅ 저장 완료: data/processed/pc3/dur_ingredient_노인주의.parquet')
+
+# 파켓으로 굽기 (에러 없이 싹 들어갑니다!)
+df.to_parquet('C:/Users/soldesk/Desktop/dur-prep/realdata/낱알식별정보.parquet', index=False)
+
+print(' ✅ 저장 완료: C:/Users/soldesk/Desktop/dur-prep/realdata/낱알식별정보.parquet')
 print(f'행수: {len(df):,} / 컬럼수: {len(df.columns)}')

@@ -2,8 +2,8 @@ from pathlib import Path
 import json
 import pandas as pd
 
-IN_DIR = Path("C:/Users/soldesk/Desktop/dur-prep/data/raw/DrugPrmsnInfo")     # ✅ 3개 json 폴더
-OUT_DIR = Path("data/processed/pc3/parts")   # ✅ 저장 위치
+IN_DIR = Path("C:/Users/soldesk/Desktop/dur-prep/낱알식별정보.json")     # ✅ 3개 json 폴더
+OUT_DIR = Path("C:/Users/soldesk/Desktop/dur-prep/realdata")   # ✅ 저장 위치
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
 def extract_items(raw):
