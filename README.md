@@ -18,3 +18,10 @@ src/
 ## 실행 방법
 pip install -r requirements.txt
 python scripts/train_baseline.py
+
+
+api = 민욱님
+db = 종성님
+inference = 다현님
+ocr = 태영님
+pipeline = 형우님
