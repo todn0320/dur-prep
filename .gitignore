@@ -12,3 +12,8 @@ Thumbs.db
 
 # 원천 데이터만 제외
 data/raw/
+src/pill_ai/Pill_ai_pc1/data/sample_img
+src/pill_ai/Pill_ai_pc2/data/sample_img
+src/pill_ai/Pill_ai_pc3/data/sample_img
+src/pill_ai/Pill_ai_pc4/data/sample_img
+src/pill_ai/Pill_ai_pc5/data/sample_img
