@@ -1,0 +1,8 @@
+{
+    "python.terminal.executeInFileDir": false,
+    "python.envFile": "${workspaceFolder}/.env",
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "python-envs.defaultEnvManager": "ms-python.python:system"
+}
