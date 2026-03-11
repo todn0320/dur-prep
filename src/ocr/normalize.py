@@ -5,4 +5,5 @@ def normalize_imprint(text: str) -> str:
     text = text.upper()
     text = text.replace("-", "")
     text = text.replace(" ", "")
+    text = text.replace("_", "")
     return text
